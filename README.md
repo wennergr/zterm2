@@ -11,11 +11,11 @@ Setup is pretty simple:
 <pre>
     Regular expression: \*\*B0100
     Action: Run Silent Coprocess
-    Parameters: /usr/local/bin/iterm2-send-zmodem.sh
+    Parameters: /usr/local/bin/zterm2-zend.sh
 
     Regular expression: \*\*B00000000000000
     Action: Run Silent Coprocess
-    Parameters: /usr/local/bin/iterm2-recv-zmodem.sh
+    Parameters: /usr/local/bin/ziterm2-recv.sh
 </pre>
 
 To send a file to a remote machine:
