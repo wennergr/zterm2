@@ -9,7 +9,7 @@ For ubuntu/debian: ```apt-get install lrzsz```
 
 Setup is pretty simple:
 
-1. Run ```sudo ./install.sh```
+1. Run ```./install.sh```
 2. Set up Triggers (Open Profiles->Edit Profies->Profiles->Advanced) in iTerm 2 like so:
 
 <pre>
