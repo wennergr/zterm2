@@ -1,6 +1,12 @@
 ZModem support for iterm2
 ------------------------------
 
+Provide you with the ability to send files using your terminal between
+machines. It's slower then scp but very convenient.
+
+You neeed to instal zmodem on the remote machines.
+For ubuntu/debian: ```apt-get install lrzsz```
+
 Setup is pretty simple:
 
 1. Run ```sudo ./install.sh```
@@ -9,7 +15,7 @@ Setup is pretty simple:
 <pre>
     Regular expression: \*\*B0100
     Action: Run Silent Coprocess
-    Parameters: /usr/local/bin/zterm2-zend.sh
+    Parameters: /usr/local/bin/ziterm2-send.sh
 
     Regular expression: \*\*B00000000000000
     Action: Run Silent Coprocess
