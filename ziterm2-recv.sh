@@ -13,7 +13,9 @@ hash rz 2>/dev/null || { echo >&2 "I require zmodem but it's not installed. Abor
 osascript -e "display notification \"File transfer from remote host started\" with title \"${TITLE}\""
 
 # Execute rz
+pushd ${DOWNLOAD_DIR}
 rz
+popd
 
 osascript -e "display notification \"File transfer from remote host completed. File is available in the ${DOWNLOAD_DIR} folder\" with title \"${TITLE}\""
 
