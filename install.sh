@@ -2,7 +2,7 @@
 set -e
 
 INSTALL_DIR=/usr/local/bin
-mkdir -p ${INSTALL_DIR}
+sudo mkdir -p ${INSTALL_DIR}
 
 # Install lrzsz if needed
 brew list -1 | grep lrzsz > /dev/null || brew install lrzsz
