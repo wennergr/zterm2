@@ -12,13 +12,13 @@ Setup is pretty simple:
 1. Run ```./install.sh```
 2. Set up Triggers (Open Profiles->Edit Profies->Profiles->Advanced) in iTerm 2 like so:
 
-### Download triggrer
+### Send trigger
 <pre>
     Regex: \*\*B0100
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/ziterm2-send.sh
 </pre>
-### Download triggrer
+### Recv trigger
 <pre>
     Regex: \*\*B00000000000000
     Action: Run Silent Coprocess
