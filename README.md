@@ -18,7 +18,7 @@ Setup is pretty simple:
     Action: Run Silent Coprocess
     Parameters: /usr/local/bin/ziterm2-send.sh
 </pre>
-### Recv trigger
+### Receive trigger
 <pre>
     Regex: \*\*B00000000000000
     Action: Run Silent Coprocess
