@@ -4,8 +4,9 @@ ZModem support for iterm2
 Provide you with the ability to send files using your terminal between
 machines. It's slower then scp but very convenient.
 
-You neeed to instal zmodem on the remote machines.
-For ubuntu/debian: ```apt-get install lrzsz```
+You neeed to install zmodem on the remote machines.  
+For ubuntu/debian: ```apt-get install lrzsz```  
+For Redhat/CentOS: ```yum install lrzsz```  
 
 Setup is pretty simple:
 
